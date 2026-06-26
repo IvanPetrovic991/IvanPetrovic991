@@ -47,9 +47,7 @@
 - ✉️ Email: **ivannkpetrovic@gmail.com**
 - 📍 Montenegro 🇲🇪
 
----
 
 <!-- Optional stats block — delete it if you prefer a cleaner, project-focused look -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvanPetrovic991&layout=compact&hide_border=true&langs_count=8" height="160" alt="Top languages" />
 </p>
