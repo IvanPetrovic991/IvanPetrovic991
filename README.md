@@ -44,7 +44,7 @@
 ### 📫 Get in touch
 
 - 💼 LinkedIn: **[ivan-petrovic-me](https://www.linkedin.com/in/ivan-petrovic-me/)**
-- ✉️ Email: **your.email@example.com**
+- ✉️ Email: **ivannkpetrovic@gmail.com**
 - 📍 Montenegro 🇲🇪
 
 ---
