@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Ivan 👋</h1>
-<h3 align="center">QA Automation Engineer · SDET — testing & performance as code</h3>
-
+<h3 align="center">Senior QA Engineer · Test Automation & Performance</h3>
 <p align="center">
-  I build maintainable, CI-native test automation: resilient end-to-end suites and
-  load-testing pipelines that treat tests as first-class, reviewable code.
+  Senior QA engineer working across the full testing stack — end-to-end & API automation,
+  visual regression, and performance/load testing — with CI-native suites that enforce
+  quality on every change.
 </p>
 
 ---
