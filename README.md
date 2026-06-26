@@ -27,6 +27,7 @@
 ### 🔬 Focus areas
 
 - **E2E UI automation** — Playwright, TypeScript, Page Object Model, self-healing locators
+- **Visual regression** — Playwright pixel baselines, cross-browser & responsive snapshots, scalable registry
 - **Performance & load testing** — Locust, JMeter, SLA gates, soak & memory-leak detection
 - **CI/CD for tests** — GitHub Actions, sharded matrices, quality gates, PR annotations
 - **API & accessibility testing** — API-level canaries, axe-core WCAG scans
@@ -36,17 +37,20 @@
 
 **[booking-automation-framework](https://github.com/IvanPetrovic991/booking-automation-framework)** — Playwright + TypeScript E2E framework covering all four booking.com products (Stays, Flights, Cars, Attractions), with a self-healing locator engine, sharded GitHub Actions CI, plus accessibility and API checks.
 
+**[visual-comparison](https://github.com/IvanPetrovic991/visual-comparison)** — Visual regression testing using Playwright's built-in pixel diffing (no Percy/Applitools). Records baselines from a clean build and proves it catches UI regressions by diffing an intentionally buggy one; a data-driven registry scales it to 1000+ snapshots across browsers and viewports.
+
 **[locust-performance-lab](https://github.com/IvanPetrovic991/locust-performance-lab)** — Code-first load-testing lab: distributed Locust, live Grafana monitoring, and automated SLA / regression / memory-leak gates that fail the CI build when latency budgets are breached.
 
 ### 📫 Get in touch
 
 - 💼 LinkedIn: **[ivan-petrovic-me](https://www.linkedin.com/in/ivan-petrovic-me/)**
-- ✉️ Email: **ivannkpetrovic@gmail.com**
+- ✉️ Email: **your.email@example.com**
 - 📍 Montenegro 🇲🇪
 
 ---
 
 <!-- Optional stats block — delete it if you prefer a cleaner, project-focused look -->
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=IvanPetrovic991&show_icons=true&hide_border=true&count_private=true" height="160" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvanPetrovic991&layout=compact&hide_border=true&langs_count=8" height="160" alt="Top languages" />
 </p>
