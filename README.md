@@ -1,9 +1,15 @@
 <h1 align="center">Hi, I'm Ivan 👋</h1>
-<h3 align="center">Senior QA Engineer · Test Automation & Performance</h3>
+<h3 align="center">Performance Engineer · Senior QA Automation Engineer · QA Lead</h3>
 <p align="center">
-  Senior QA engineer working across the full testing stack — end-to-end & API automation,
-  visual regression, and performance/load testing — with CI-native suites that enforce
-  quality on every change.
+  I work across the full testing stack — end-to-end &amp; API automation, visual regression,
+  and performance/load testing — building CI-native suites that enforce quality on every
+  change. Quality gates should fail builds, not people.
+</p>
+
+<p align="center">
+  <a href="https://ivanpetrovic.dev"><img src="https://img.shields.io/badge/portfolio-ivanpetrovic.dev-5ecfa8?style=for-the-badge&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/ivan-petrovic-me/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ivannkpetrovic@gmail.com"><img src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
@@ -14,7 +20,7 @@
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Locust-2.x-44b349?style=flat-square&logo=python&logoColor=white" alt="Locust" />
+  <img src="https://img.shields.io/badge/Locust-44b349?style=flat-square&logo=python&logoColor=white" alt="Locust" />
   <img src="https://img.shields.io/badge/JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white" alt="JMeter" />
   <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
@@ -35,19 +41,15 @@
 
 ### 📌 Featured projects
 
-**[booking-automation-framework](https://github.com/IvanPetrovic991/booking-automation-framework)** — Playwright + TypeScript E2E framework covering all four booking.com products (Stays, Flights, Cars, Attractions), with a self-healing locator engine, sharded GitHub Actions CI, plus accessibility and API checks.
+**[self-healing-playwright-framework](https://github.com/IvanPetrovic991/self-healing-playwright-framework)** — Playwright + TypeScript E2E framework built around a **self-healing locator engine**: ordered selector fallbacks that heal, persist across runs, and then report the override on every subsequent run so a green-via-fallback suite can never hide rot. Proven against the live booking.com (Stays, Flights, Cars, Attractions), with axe-core accessibility and API-level checks on sharded GitHub Actions CI.
 
-**[visual-comparison](https://github.com/IvanPetrovic991/visual-comparison)** — Visual regression testing using Playwright's built-in pixel diffing (no Percy/Applitools). Records baselines from a clean build and proves it catches UI regressions by diffing an intentionally buggy one; a data-driven registry scales it to 1000+ snapshots across browsers and viewports.
+**[visual-comparison](https://github.com/IvanPetrovic991/visual-comparison)** — Visual regression testing on Playwright's built-in pixel diffing (no Percy/Applitools). Records baselines from a clean build and proves it catches UI regressions by diffing an intentionally buggy one — with a CI guard that fails the build if the suite *stops* catching them. A data-driven registry is designed to scale from 6 scenarios to 1000+ snapshots without new test code. **[→ live Allure dashboard](https://ivanpetrovic.dev/visual-comparison/)**
 
-**[locust-performance-lab](https://github.com/IvanPetrovic991/locust-performance-lab)** — Code-first load-testing lab: distributed Locust, live Grafana monitoring, and automated SLA / regression / memory-leak gates that fail the CI build when latency budgets are breached.
+**[locust-performance-lab](https://github.com/IvanPetrovic991/locust-performance-lab)** — Code-first load-testing lab: distributed Locust, live Grafana monitoring, and automated SLA / regression / memory-leak gates that fail the CI build when latency budgets are breached. The gate scripts are themselves unit-tested, and the load job is blocked behind that suite — untested judges are worse than no judges.
 
 ### 📫 Get in touch
 
+- 🌐 Portfolio: **[ivanpetrovic.dev](https://ivanpetrovic.dev)**
 - 💼 LinkedIn: **[ivan-petrovic-me](https://www.linkedin.com/in/ivan-petrovic-me/)**
 - ✉️ Email: **ivannkpetrovic@gmail.com**
-- 📍 Montenegro 🇲🇪
-
-
-<!-- Optional stats block — delete it if you prefer a cleaner, project-focused look -->
-<p align="center">
-</p>
+- 📍 Podgorica, Montenegro 🇲🇪 · open to remote
