@@ -1,9 +1,12 @@
 <h1 align="center">Hi, I'm Ivan 👋</h1>
-<h3 align="center">Performance Engineer · Senior QA Automation Engineer · QA Lead</h3>
+<h3 align="center">Senior QA Automation Engineer · Performance Engineer · QA Lead</h3>
 <p align="center">
   I work across the full testing stack — end-to-end &amp; API automation, visual regression,
   and performance/load testing — building CI-native suites that enforce quality on every
   change. Quality gates should fail builds, not people.
+</p>
+<p align="center">
+  Currently leading QA and performance at <b>Senthorion</b>, a multi-tenant cybersecurity SaaS.
 </p>
 
 <p align="center">
@@ -37,19 +40,20 @@
 - **Performance & load testing** — Locust, JMeter, SLA gates, soak & memory-leak detection
 - **CI/CD for tests** — GitHub Actions, sharded matrices, quality gates, PR annotations
 - **API & accessibility testing** — API-level canaries, axe-core WCAG scans
+- **Security-platform testing** — vulnerability-scanner results, role-based access, multi-tenant data isolation
 - **Observability** — Prometheus + Grafana dashboards for live test insight
 
 ### 📌 Featured projects
 
-**[self-healing-playwright-framework](https://github.com/IvanPetrovic991/self-healing-playwright-framework)** — Playwright + TypeScript E2E framework built around a **self-healing locator engine**: ordered selector fallbacks that heal, persist across runs, and then report the override on every subsequent run so a green-via-fallback suite can never hide rot. Proven against the live booking.com (Stays, Flights, Cars, Attractions), with axe-core accessibility and API-level checks on sharded GitHub Actions CI.
+**[self-healing-playwright-framework](https://github.com/IvanPetrovic991/self-healing-playwright-framework)** — Playwright + TypeScript E2E framework built around a **self-healing locator engine**: ordered selector fallbacks that heal, persist across runs, and then report the override on every subsequent run so a green-via-fallback suite can never hide rot. Proven against the live booking.com (Stays, Flights, Cars, Attractions), with axe-core accessibility and API-level checks on sharded, shuffled GitHub Actions CI. Tracks every Playwright release (currently 1.65) and logs what it adopted, and what it deliberately left out.
 
 **[visual-comparison](https://github.com/IvanPetrovic991/visual-comparison)** — Visual regression testing on Playwright's built-in pixel diffing (no Percy/Applitools). Records baselines from a clean build and proves it catches UI regressions by diffing an intentionally buggy one — with a CI guard that fails the build if the suite *stops* catching them. A data-driven registry is designed to scale from 6 scenarios to 1000+ snapshots without new test code. **[→ live Allure dashboard](https://ivanpetrovic.dev/visual-comparison/)**
 
-**[locust-performance-lab](https://github.com/IvanPetrovic991/locust-performance-lab)** — Code-first load-testing lab: distributed Locust, live Grafana monitoring, and automated SLA / regression / memory-leak gates that fail the CI build when latency budgets are breached. The gate scripts are themselves unit-tested, and the load job is blocked behind that suite — untested judges are worse than no judges.
+**[locust-performance-lab](https://github.com/IvanPetrovic991/locust-performance-lab)** — Code-first load-testing lab: distributed Locust, live Grafana monitoring, and automated SLA / regression / memory-leak gates that fail the CI build when latency budgets are breached. The gate scripts are themselves unit-tested, and the load job is blocked behind that suite — untested judges are worse than no judges. The nightly regression gate judges against the median of the last five runs, and a nightly self-test proves the leak gate still fires on a deliberately leaking build.
 
 ### 📫 Get in touch
 
 - 🌐 Portfolio: **[ivanpetrovic.dev](https://ivanpetrovic.dev)**
 - 💼 LinkedIn: **[ivan-petrovic-me](https://www.linkedin.com/in/ivan-petrovic-me/)**
 - ✉️ Email: **ivannkpetrovic@gmail.com**
-- 📍 Podgorica, Montenegro 🇲🇪 · open to remote
+- 📍 Podgorica, Montenegro 🇲🇪
